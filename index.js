@@ -16,11 +16,11 @@ let data = {};
 
 let questions = [
     {
-        message: 'What is your github username?',
+        message: 'What is your GitHub username?',
         name: 'username',
     },
     {
-        message: 'What is your favorite color',
+        message: 'What color would you prefer for the template?',
         name: 'color',
         type: 'list',
         choices: ['Green', 'Blue', 'Pink', 'Red'],
@@ -46,16 +46,16 @@ function init() {
                 
 
                 switch(color) {
-                    case 'green':
+                    case 'Green':
                         data.color = 0;
                         break;
-                    case 'blue':
+                    case 'Blue':
                         data.color = 1;
                         break;  
-                    case 'pink':
+                    case 'Pink':
                         data.color = 2;
                         break;
-                    case 'red':
+                    case 'Red':
                         data.color = 3;
                         break;
                 }      
